@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Differential Calculus</title>
+</head>
+<body>
+    <div class="calContainer">
+        <span class="topBorder"></span>
+        <p class="equSection">
+            <span>Differentiate:</span> 
+            <input type="text" class="equation" placeholder="In form: 3a4 +13b3 -14ab2 +13">
+            <span>with respect to:</span> 
+            <input type="text" class="withRespect" placeholder="b">
+            <p id="resultPar">10X4 + 12X3 - 20x2 + 32x - 120</p>
+        </p>
+        <p class="err"></p>
+            <button class="checkBtn">Check</button>
+            <button class="answerBtn">Get Answer</button>
+        <p>&copy;ARIB 2020 
+            <span id="currentYear"></span>
+        </p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
